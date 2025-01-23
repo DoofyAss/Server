@@ -1,2 +1,3 @@
 @echo off
-node site.com --port 3000
+cls
+node site.com

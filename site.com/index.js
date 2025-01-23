@@ -3,5 +3,5 @@
 
 require('../handler')(async () => {
 
-	console.log('server ...')
+	console.ok('server', config.port)
 })
