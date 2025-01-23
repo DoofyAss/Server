@@ -68,7 +68,7 @@ $(DB).get(async function connection() {
 
 		let interval = () => {
 
-			if (mysql.connection.state == 'authenticated')
+			if (mysql.connection ?. state == 'authenticated')
 			return resolve(mysql.connection)
 
 			setTimeout(interval, 250)

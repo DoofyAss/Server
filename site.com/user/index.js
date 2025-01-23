@@ -1,0 +1,4 @@
+
+
+
+require('./DataBase').init()

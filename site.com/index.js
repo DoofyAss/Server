@@ -1,7 +1,13 @@
 
 
 
-require('../handler')(async () => {
+require('../handler')
+require('./user')
 
-	console.ok('server', config.port)
-})
+
+async function main() {
+
+	// EventEmmiter !
+}
+
+main()
