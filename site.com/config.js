@@ -3,6 +3,8 @@
 
 module.exports = {
 
+	dev: true,
+
 	port: 3000,
 
 	DataBase: {
