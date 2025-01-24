@@ -10,7 +10,7 @@
 
 	<body>
 		<main>
-			<a>тут пока пусто</a>
+			<a>{{ message }}</a>
 			<img width='192px' src='/img/cat.png'>
 		</main>
 	</body>
@@ -18,28 +18,8 @@
 	<style>
 
 		@font-face {
-			font-family: 'HelveticaNeue';
-			src: url('font/HelveticaNeue-Light.woff');
-		}
-
-		@font-face {
-			font-family: 'Helvetica';
-			src: url('font/Helvetica.woff');
-		}
-
-		@font-face {
-			font-family: 'Roboto';
-			src: url('font/Roboto.woff');
-		}
-
-		@font-face {
 			font-family: 'light';
-			src: url('font/light.woff');
-		}
-
-		@font-face {
-			font-family: 'medium';
-			src: url('font/medium.woff');
+			src: url('/font/light.woff');
 		}
 
 		html, body {

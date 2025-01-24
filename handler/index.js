@@ -3,6 +3,7 @@
 
 global.fs = require('fs')
 global.path = require('path')
+global.mime = require('mime')
 
 global.config = require.main.require('./config')
 
@@ -18,4 +19,4 @@ require('./SQL')
 
 
 
-process.on('uncaughtException', exception => console.log(exception))
+// process.on('uncaughtException', exception => console.log(exception))

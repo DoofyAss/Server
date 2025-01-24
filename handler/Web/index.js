@@ -21,13 +21,6 @@ server.source = dir => path.join(server.src, dir)
 
 
 
-express.response.source = dir => {
-
-	//
-}
-
-
-
 require('./template')
 
 
