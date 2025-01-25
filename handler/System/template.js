@@ -29,8 +29,8 @@ $.random(max) // 0, max
 [].null // null
 ['a'].null // ['a']
 
-[].empty // true
-{}.empty // true
+[].isempty // true
+{}.isempty // true
 
 Map.array // convert Map to Array
 

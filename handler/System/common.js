@@ -92,7 +92,7 @@ $(Array.prototype)
 
 
 
-.get(function empty() {
+.get(function isempty() {
 
 	return Array.isArray(this) &&! this.length
 })
@@ -129,19 +129,6 @@ $(Array.prototype)
 
 
 
-.add(function should(condition, value) {
-
-	if (condition && ! this.includes(value))
-	this.push(value)
-
-	if (! condition && this.includes(value))
-	this.remove(value)
-
-	return this
-})
-
-
-
 
 
 
@@ -157,7 +144,7 @@ $(Object.prototype)
 
 
 
-.get(function empty() {
+.get(function isempty() {
 
 	return this && Object.keys(this).length == 0 &&
 	Object.getPrototypeOf(this) === Object.prototype
